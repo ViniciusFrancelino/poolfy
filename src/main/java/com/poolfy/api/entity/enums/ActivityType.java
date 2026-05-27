@@ -1,0 +1,5 @@
+package com.poolfy.api.entity.enums;
+
+public enum ActivityType {
+    POOL_CREATED, POOL_UPDATED, POOL_DELETED, MAINTENANCE_CREATED, PRODUCT_CREATED, PRODUCT_UPDATED, STOCK_IN, STOCK_OUT
+}
