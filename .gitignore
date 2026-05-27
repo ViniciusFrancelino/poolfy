@@ -1,0 +1,40 @@
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+
+# VSCode
+.vscode/
+
+# Gradle
+.gradle/
+build/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Spring Boot Configs
+src/main/resources/application.yml
+!src/main/resources/application-example.yml
+
+# Docker
+docker-compose.override.yml
+
+# Node
+node_modules/
+
+# Mac/Linux hidden files
+*~
